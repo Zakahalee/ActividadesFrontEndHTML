@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenar ahora</title>
+</head>
+<body>
+    <img src="./img/logo.png" alt="Logo pastelería Tomás" width="100px">
+
+    <header>
+        <h2 style="text-align: center;">Haz tu órden</h2>
+    </header>
+
+    <label for="nombre">Nombre completo</label><br>
+    <input type="text" id="nombre" name="nombre">
+    <br>
+    <label for="telefono">Teléfono</label><br>
+    <input type="tel" id="telefono" name="telefono" maxlength="10">
+    <br>
+    <label for="correo">Correo</label><br>
+    <input type="email" id="correo" name="correo">
+    <br>
+    <label for="descripcion">Descripción</label><br>
+    <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+    <br>
+    
+    <input type="radio" id="preparado" name="seleccion" value="Preparado">
+    <label for="preparado">Preparado</label><br>
+
+    <ul>
+        <li>
+            <input type="radio" id="chocolate" name="preparadoPastel" value="chocolate">
+            <label for="chocolate">Pastel de chocolate</label>
+        </li>
+        <li>
+            <input type="radio" id="fresa" name="preparadoPastel" value="fresa">
+            <label for="fresa">Pastel de fresa</label>
+        </li>
+        <li>
+            <input type="radio" id="red" name="preparadoPastel" value="red">
+            <label for="red">Pastel de red velvet</label>
+        </li>
+        <ul>
+            <input type="checkbox" id="preparadoAdorno" name="preparadoAdorno" value="Adorno">
+            <label for="preparadoAdorno">Con adorno</label>
+            <li>
+                <input type="radio" id="boda" name="preparadoAdorno" value="boda">
+                <label for="boda">Adorno para boda</label>
+            </li>
+            <li>
+                <input type="radio" id="cumpleanos" name="preparadoAdorno" value="cumpleanos">
+                <label for="cumpleanos">Adorno feliz cumpleaños</label>
+            </li>
+            <li>
+                <input type="radio" id="sexo" name="preparadoAdorno" value="sexo">
+                <label for="sexo">Adorno sexo bebé</label>
+            </li>
+            <li>
+                <input type="radio" id="xv" name="preparadoAdorno" value="xv">
+                <label for="xv">Adorno para XV años</label>
+            </li>
+        </ul>
+    </ul>
+    
+    <input type="radio" id="combinado" name="seleccion" value="Combinado">
+    <label for="combinado">Combinado</label><br>
+    
+    <ul>
+        <li>
+            <input type="checkbox" id="combinadoSaborchocolate" name="combinadoSabor" value="chocolate">
+            <label for="combinadoSaborchocolate">Chocolate</label>
+        </li>
+        <li>
+            <input type="checkbox" id="combinadoSaborfresa" name="combinadoSabor" value="fresa">
+            <label for="combinadoSaborfresa">Fresa</label>
+        </li>
+        <li>
+            <input type="checkbox" id="combinadoSaborvainilla" name="combinadoSabor" value="vainilla">
+            <label for="combinadoSaborvainilla">Vainilla</label>
+        </li>
+        <li>
+            <input type="checkbox" id="combinadoSaborcereza" name="combinadoSabor" value="cereza">
+            <label for="combinadoSaborcereza">Cereza</label>
+        </li>
+        <li>
+            <input type="checkbox" id="combinadoSabortresleches" name="combinadoSabor" value="tresleches">
+            <label for="combinadoSabortresleches">Tres leches</label>
+        </li>
+        <ul>
+            <input type="checkbox" id="combinadoAdorno" name="combinadoAdorno" value="Adorno">
+            <label for="combinadoAdorno">Con adorno</label>
+            <li>
+                <input type="checkbox" id="combinadoAdornovela" name="combinadoAdorno" value="vela">
+                <label for="combinadoAdornovela">Adorno de vela</label>
+            </li>
+            <li>
+                <input type="checkbox" id="combinadoAdornonumero" name="combinadoAdorno" value="numero">
+                <label for="combinadoAdornonumero">Adorno de vela con número</label>
+            </li>
+            <li>
+                <input type="checkbox" id="combinadoAdornorecorte" name="combinadoAdorno" value="recorte">
+                <label for="combinadoAdornorecorte">Adorno de recorte al gusto</label>
+            </li>
+        </ul>
+    </ul>
+    <button>Ordenar</button>
+    
+    <br><br>
+    <footer>
+        Dirección: La pimienta #356, Colonia La cocineta, CP 12345, Ciudad Gutierrez <br>
+        Teléfono de contacto: (987) 654 3210 <br>
+        Horarios: Lunes a Viernes de 6:00am a 11:00pm
+    </footer>
+</body>
+</html>
